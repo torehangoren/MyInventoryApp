@@ -1,0 +1,138 @@
+{
+	"languages": [
+	{
+	  "lang": "German",
+	  "niveau": "Fluent",
+	  "FlagPicUrl": "./images/de.png"
+	},
+	{
+	  "lang": "Turkish",
+	  "niveau": "Native",
+	  "FlagPicUrl": "./images/tr.png"
+	},
+	{
+	  "lang": "English",
+	  "niveau": "Good spoken and written",
+	  "FlagPicUrl": "./images/en.png"
+	}
+  ],
+  "company": [
+	{
+		"name": "Montag Consulting AG",
+		"workyear": "January 2017 – July 2018"
+	  },
+	  
+	{
+		"name": "TGW Logistics Group",
+		"workyear": "since April 2019"
+	  }
+  ],
+  "publications": [
+	{
+		"text": "with author of the book 'Adım Adım Big-Data' in Turkish lang. ( translation: 'Big-Data in use' )"
+    },
+	{
+		"text": "with author of article 'Big-Data'nın Türkiye'deki yeri' ( translation : The place of Big-Data in Turkey ) is published at IMISC on 2017."
+    },
+	{
+		"text": "Master thesis 'Big-Data Implementation on a NoSQL and HBase Architecture'"
+    }
+  ],
+  "programmingLang": [
+	{
+		"text": "ABAP-OO",
+		"percentValue": 80,
+		"level": "8 of 10"
+    },
+	{
+		"text": "Javascript",
+		"percentValue": 80,
+		"level": "8 of 10"
+    },
+	{
+		"text": "XML",
+		"percentValue": 80,
+		"level": "8 of 10"
+    },
+	{
+		"text": "CSS",
+		"percentValue": 70,
+		"level": "7 of 10"
+    },
+	{
+		"text": "Java",
+		"percentValue": 20,
+		"level": "2 of 10"
+    },
+	{
+		"text": "C#",
+		"percentValue": 20,
+		"level": "2 of 10"
+    },
+	{
+		"text": "PHP",
+		"percentValue": 30,
+		"level": "3 of 10"
+    },
+	{
+		"text": "HTML5",
+		"percentValue": 60,
+		"level": "6 of 10"
+    }
+  ],
+  "computerSkills": [
+	{
+		"text": "Eclipse",
+		"percentValue": 80,
+		"level": "8 of 10"
+    },
+	{
+		"text": "Web IDE",
+		"percentValue": 80,
+		"level": "8 of 10"
+    },
+	{
+		"text": "SAP Business Application Studio",
+		"percentValue": 20,
+		"level": "2 of 10"
+    },
+	{
+		"text": "MS Office",
+		"percentValue": 70,
+		"level": "7 of 10"
+    },
+	{
+		"text": "Unity 3D",
+		"percentValue": 30,
+		"level": "3 of 10"
+    },
+	{
+		"text": "Adobe Premiere Pro",
+		"percentValue": 40,
+		"level": "4 of 10"
+    },
+	{
+		"text": "Adobe Photo Shop",
+		"percentValue": 40,
+		"level": "4 of 10"
+    }
+  ],
+  "courses": [
+	{
+		"courseNo": "SAP EWM900",
+		"courseDetail": "Developer Workshop"
+    },
+	{
+		"courseNo": "SAP EWM110",
+		"courseDetail": "Basic Customizing in SAP S/4HANA EWM"
+    },
+	{
+		"courseNo": "SAP EWM120",
+		"courseDetail": "Customizing in SAP S/4HANA EWM"
+    },
+	{
+		"courseNo": "SAP EWM130",
+		"courseDetail": "Production Integration in SAP S/4HANA EWM"
+    }
+  ]
+}

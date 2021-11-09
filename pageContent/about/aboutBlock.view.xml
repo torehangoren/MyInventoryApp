@@ -1,0 +1,21 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:forms="sap.ui.layout.form" xmlns="sap.m">
+	<Panel
+		id="containerLayout"
+		headerText="About Me"
+		width="100%">
+		<Text
+			id="aboutmetext1"
+			wrappingType="Hyphenated"
+			text="Hereby, I would like to introduce myself to you as an ABAP and Fiori Developer. I have successfully completed my Master of Science degree in Business Information at Marmara 
+		University in Istanbul in February 2019. Currently, I am working at TGW Logistics Group Company in 
+		Austria as an ABAP and Fiori Developer.
+		In my 4 year SAP career, I worked 2 years of it in a consulting company in turkey in the F/CO/RE 
+		modules and until 2019/April. Now I work in Austria in the EWM module as an ABAP/Fiori Developer. 
+		These different environments  where I worked gave me a different perspective, and I was able to 
+		gather work disciplines in different countries.
+		Since there are no ready EWM applications  in Fiori library to meet the needs of our customers,  we designed our custom applications. 
+		Here I voluntarily learned Javascript and I carried out all the planning deveIoping related to fiori alone." />
+<Text id="aboutmetext2" wrappingType="Hyphenated"
+			text="Let's continue to scroll and discover me :)" />
+	</Panel>
+</mvc:View>

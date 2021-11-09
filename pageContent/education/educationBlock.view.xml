@@ -1,0 +1,40 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:forms="sap.ui.layout.form" xmlns="sap.m" 
+	xmlns:core="sap.ui.core"
+	xmlns:f="sap.f"
+	xmlns:card="sap.f.cards"
+	xmlns:time="sap.ui.webc.fiori">
+
+	<f:Card class="sapUiTinyMargin" width="auto">
+		<f:header>
+			<card:Header title="University" iconSrc="sap-icon://study-leave" />
+		</f:header>
+		<f:content>
+			<time:Timeline>
+			<time:TimelineItem icon="sap-icon://circle-task" name="" titleText="Business Informatics at Marmara University, Istanbul" subtitleText="2016-2019" class="">
+					<ObjectAttribute  text="Degree: Master of Science&#13;&#10;Thesis: ´Big-Data Implementation on a NoSQL and HBase Architecture " />
+			</time:TimelineItem>
+			<time:TimelineItem icon="sap-icon://circle-task" name="" titleText="German as a teaching profession at Çukurova University, Adana" subtitleText="2012-2016" class="">
+					<ObjectAttribute  text="Degree: Bachelor of arts&#13;&#10;Thesis: The prepositions" />
+			</time:TimelineItem>
+			<time:TimelineItem icon="sap-icon://circle-task" name="" titleText="Germanistik Studies at the Johannes Gutenberg University, Mainz" subtitleText="2013-2014" class="">
+					<ObjectAttribute  text="Erasmus" />
+			</time:TimelineItem>
+			</time:Timeline>
+		</f:content>
+	</f:Card>
+	
+	<f:Card class="sapUiTinyMargin" width="auto">
+		<f:header>
+			<card:Header title="High schoool" iconSrc="sap-icon://study-leave" />
+		</f:header>
+		<f:content>
+			<time:Timeline>
+			<time:TimelineItem icon="sap-icon://circle-task" name="" titleText="Anadolu Lisesi Adana, Türkei, ( Gymnasium )" subtitleText="2008-2012" >
+					<ObjectAttribute  text="Focus: Science" />
+			</time:TimelineItem>
+			<time:TimelineItem icon="sap-icon://circle-task" name="" titleText="Theodor Storm Secondary school, Kiel Germany" subtitleText="2002–2008" >
+			</time:TimelineItem>
+			</time:Timeline>
+		</f:content>
+	</f:Card>
+</mvc:View>

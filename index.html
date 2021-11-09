@@ -1,27 +1,28 @@
-<!DOCTYPE HTML>
-<html style="height: 100%;">
+<!DOCTYPE html>
+<html lang="en" >
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Törehan</title>
-    <script id="sap-ui-bootstrap"
-      src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
-      data-sap-ui-theme="sap_fiori_3_dark"
-      data-sap-ui-oninit="module:sap/ui/core/ComponentSupport"
+    <link rel="stylesheet" href="mystyle.css">
+    <meta charset="utf-8" />
+    <title>Törehan Gören's CV</title>
+    <script
+      id="sap-ui-bootstrap"
+      src="https://openui5.hana.ondemand.com/resources/sap-ui-cachebuster/sap-ui-core.js"
+      data-sap-ui-theme="sap_fiori_3"
+      data-sap-ui-libs="sap.m, sap.ui.layout, sap.uxap"
+      data-sap-ui-resourceroots='{"GOTO": "./"}'
       data-sap-ui-async="true"
-      data-sap-ui-compatversion="edge"
-      data-sap-ui-resourceroots='{"goto.inventor": "./"}'
-      data-sap-ui-xx-componentpreload="off"
-      data-sap-ui-xx-waitfortheme="init"
+      sap-ui-language=EN
+	  data-sap-ui-appCachebuster="./"
     ></script>
+    <script>
+      sap.ui.getCore().attachInit(function () {
+        sap.ui.require(["sap/ui/core/mvc/XMLView"], function (XMLView) {
+          XMLView.create({ viewName: "GOTO.Login" }).then(function (oView) {
+            oView.placeAt("content");
+          });
+        });
+      });
+    </script>
   </head>
-  <body id="content" class="sapUiBody">
-    <div style="height: 100%;"
-      data-sap-ui-component
-      data-id="rootComponentContainer"
-      data-name="goto.inventor"
-      data-height="100%"
-      data-settings='{"id": "rootComponent"}'
-    ></div>
-  </body>
+  <body class="sapUiBody" id="content"></body>
 </html>

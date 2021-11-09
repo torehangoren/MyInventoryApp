@@ -1,0 +1,22 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:forms="sap.ui.layout.form" xmlns="sap.m" 
+	xmlns:core="sap.ui.core"
+	xmlns:f="sap.f"
+	xmlns:w="sap.ui.integration.widgets"
+	xmlns:card="sap.f.cards"
+	xmlns:time="sap.ui.webc.fiori">
+
+	<f:Card class="sapUiTinyMargin" width="auto">
+		<f:header>
+			<card:Header title="High schoool" iconSrc="sap-icon://study-leave" />
+		</f:header>
+		<f:content>
+			<time:Timeline>
+			<time:TimelineItem icon="sap-icon://circle-task" name="" titleText="Anadolu Lisesi Adana, Türkei, ( Gymnasium )" subtitleText="2008-2012" >
+					<ObjectAttribute  text="Focus: Science" />
+			</time:TimelineItem>
+			<time:TimelineItem icon="sap-icon://circle-task" name="" titleText="Theodor Storm Secondary school, Kiel Germany" subtitleText="2002–2008" >
+			</time:TimelineItem>
+			</time:Timeline>
+		</f:content>
+	</f:Card>
+</mvc:View>

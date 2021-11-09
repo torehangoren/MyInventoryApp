@@ -1,0 +1,27 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:forms="sap.ui.layout.form" xmlns="sap.m" 
+	xmlns:core="sap.ui.core"
+	xmlns:f="sap.f"
+	xmlns:card="sap.f.cards"
+	xmlns:time="sap.ui.webc.fiori">
+
+	<f:Card  width="auto">
+		<f:header>
+			<card:Header title="Language Skills" iconSrc="sap-icon://globe" />
+		</f:header>
+		<f:content>
+			
+	<List
+		items="{/languages}">
+		<StandardListItem
+			title="{lang}"
+			description="{niveau}"
+			icon="{FlagPicUrl}"
+			class="imgblack"
+			iconDensityAware="false"
+			iconInset="false" 
+			/>
+	</List>
+		</f:content>
+	</f:Card>
+
+</mvc:View>

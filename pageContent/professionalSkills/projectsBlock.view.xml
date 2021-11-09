@@ -1,0 +1,137 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:forms="sap.ui.layout.form" xmlns="sap.m" 
+	xmlns:core="sap.ui.core"
+	xmlns:f="sap.f"
+	xmlns:card="sap.f.cards"
+	xmlns:grid="sap.ui.layout.cssgrid">
+
+
+	<f:Card class="sapUiTinyMargin" width="auto">
+		<f:header>
+			<card:Header title="Projects at Montag Consulting AG" iconSrc="sap-icon://globe" />
+		</f:header>
+		<f:content>
+			
+					<!-- XXXXXXXXXXXXXXXXXXX -->
+
+		<f:GridList id="gridList1" headerText="January 2017 – July 2018" class="sapUiMediumMargin">
+			<f:customLayout>
+				<grid:GridBoxLayout boxWidth="auto" boxesPerRowConfig="XL1 L1 M1 S1"/>
+			</f:customLayout>
+
+			<f:GridListItem>
+				<VBox height="100%" justifyContent="SpaceBetween">
+					<layoutData>
+						<FlexItemData growFactor="1" shrinkFactor="0" /><!-- Don't shrink below minimum size. Fill space if available. -->
+					</layoutData>
+
+					<VBox class="sapUiSmallMargin">
+						<Title text="Project at Icdas GmbH in the energy and transport industries" wrapping="true" />
+						<Label text="Abap Developer" wrapping="true" class="sapUiTinyMarginBottom" />
+						<Label text="January 2017 – March 2017" wrapping="true" class="sapUiTinyMarginBottom" />
+						<Text text="Automatic settlement of bank statements received with sFTP from 23 banks." wrapping="true" />
+					</VBox>
+				</VBox>
+			</f:GridListItem>
+
+			<f:GridListItem>
+				<VBox height="100%" justifyContent="SpaceBetween">
+					<layoutData>
+						<FlexItemData growFactor="1" shrinkFactor="0" /><!-- Don't shrink below minimum size. Fill space if available. -->
+					</layoutData>
+
+					<VBox class="sapUiSmallMargin">
+						<Title text="Projects at Multinet Up (Meal Ticket Service) | in SAP S/4 HANA FI, CO,COL,CR,MT940." wrapping="true"/>
+						<Label text="Abap Developer" wrapping="true" class="sapUiTinyMarginBottom" />
+						<Label text="April 2017 – July 2018" wrapping="true" class="sapUiTinyMarginBottom" />
+						<Text text="Automatic settlement
+of account statements received with sFTP/FTP the with 11 banks.
+Further development and support of internal reporting in
+FI,CO,COL,CR. Data loading from e-wallet system to SAP HANA
+with PI. Mail transfer development.Smartforms developments for
+internal reporting" wrapping="true" />
+					</VBox>
+				</VBox>
+			</f:GridListItem>
+
+			<f:GridListItem>
+				<VBox height="100%" justifyContent="SpaceBetween">
+					<layoutData>
+						<FlexItemData growFactor="1" shrinkFactor="0" /><!-- Don't shrink below minimum size. Fill space if available. -->
+					</layoutData>
+
+					<VBox class="sapUiSmallMargin">
+						<Title text="Projects at Turkcell Communication
+services AG | in SAP HANA RE/FX, IFRS16" wrapping="true"/>
+						<Label text="ABAP and Fiori Developer" wrapping="true" class="sapUiTinyMarginBottom" />
+						<Label text="September 2017 - July 2018" wrapping="true" class="sapUiTinyMarginBottom" />
+						<Text text="Introduction of
+developments in the back-end and front-end of the WebIDE of
+SAP in addition to the mapping of the approval process of
+contracts. Further development and support of internal reporting.
+BADI / user exit designs, mail transfer developments. Data loading
+from Oracle to SAP HANA with PI. Connection building between
+the building, land, demand, application and contracts." wrapping="true" />
+					</VBox>
+				</VBox>
+			</f:GridListItem>
+			<f:GridListItem>
+				<VBox height="100%" justifyContent="SpaceBetween">
+					<layoutData>
+						<FlexItemData growFactor="1" shrinkFactor="0" /><!-- Don't shrink below minimum size. Fill space if available. -->
+					</layoutData>
+
+					<VBox class="sapUiSmallMargin">
+						<Title text="Project at CarrefourSA
+Supermarkt-Chain | in SAP HANA RE/FX, IFRS16" wrapping="true"/>
+						<Label text="ABAP Developer" wrapping="true" class="sapUiTinyMarginBottom" />
+						<Label text="February 2018 - July 2018" wrapping="true" class="sapUiTinyMarginBottom" />
+						<Text text="Further development and support of internal reporting. BADI / user
+exit designs, mail transfer developments. Data loading from SAP
+R/3 to SAP S/4 HANA with IDoc. Connection setup between the
+building, land, demand, application and contracts." wrapping="true" />
+					</VBox>
+				</VBox>
+			</f:GridListItem>
+
+		</f:GridList>
+
+
+					<!-- XXXXXXXXXXXXXXXXXXX -->
+		</f:content>
+	</f:Card>
+
+
+
+		
+	<f:Card class="sapUiMediumMargin" width="auto">
+		<f:header>
+			<card:Header title="Projects at TGW Logistics Group" iconSrc="sap-icon://globe" />
+		</f:header>
+		<f:content>
+		<f:GridList id="gridList2" headerText="since April 2019 | current" class="sapUiMediumMargin">
+			<f:customLayout>
+				<grid:GridBoxLayout boxWidth="auto" />
+			</f:customLayout>
+
+			<f:GridListItem>
+				<VBox height="100%" justifyContent="SpaceBetween">
+					<layoutData>
+						<FlexItemData growFactor="1" shrinkFactor="0" /><!-- Don't shrink below minimum size. Fill space if available. -->
+					</layoutData>
+
+					<VBox class="sapUiSmallMargin">
+						<Title text="HEINRICH KIPP WERK GmbH Logistic EWM Project" wrapping="true" />
+						<Label text="since September 2019" wrapping="true" class="sapUiTinyMarginBottom" />
+						<Text text="Process logic and screen design of various custom Fiori apps.
+Create and test oData services.For EWM warehouse management
+monitor further development. ALV Reports. BADI / user exit
+designs, setting up SAP EWM IDoc integration." wrapping="true" />
+					</VBox>
+				</VBox>
+			</f:GridListItem>
+
+		</f:GridList>
+		</f:content>
+	</f:Card>
+
+</mvc:View>
